@@ -1,0 +1,338 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Bungasai";
+    src: url(../font/Bungasai.ttf);
+}
+
+@font-face {
+    font-family: "bkobiii";
+    src: url(../font/bkobiii.ttf);
+}
+
+h1 {
+    padding-top: 20px;
+    text-align: center;
+    color: black;
+}
+
+h2 {
+    color: black;
+}
+
+/****************************/
+/********NAV********/
+/***************************/
+
+nav li {
+    display: inline;
+    padding: 50px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul {
+    padding-top: 1.5%;
+}
+
+nav {
+    background-image: url(../img/backgroundbody.jpg);
+    background-position: center;
+    height: 90px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    z-index: 1000;
+}
+
+
+/****************************/
+    /*******HOME*******/
+/***************************/
+
+.home {
+    padding-top:200px;
+    background-color: #6F6F6F;
+    height: 800px;
+    width: auto;
+}
+
+.home p {
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 8%;
+    border: solid #202020 2px;
+    padding: 2%;
+    text-align: justify;
+    text-align-last: center;
+    font-size: 45px;
+    font-family: "bkobiii";
+}
+
+.competences {
+    padding-top: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.competences img {
+    height: 100px;
+    width: 100px;
+}
+
+/****************************/
+    /*****PORTFOLIO*****/
+/***************************/
+
+#portfolio {;
+    background-color: #202020;
+    margin: auto;
+    height: 1700px;
+    width: auto;
+    padding-top: 5%;
+}
+
+#portfolio h1 {
+  color: white;
+}
+
+#portfolio h2 {
+    text-align: center;
+    padding-bottom: 4%;
+    padding-top: 4%;
+    color: white;
+}
+
+#portfolio p {
+    font-family: "bkobiii";
+    font-size: 30px;
+    text-align: justify;
+    text-align-last: center;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 6%;
+    color: white;
+}
+
+#visage {
+    margin: auto;
+    height: 600px;
+    width: 600px;
+    float: left;
+    margin-top: 5%;
+    margin-left: 10%;
+    display: block;
+    color: white;
+}
+
+#visage img {
+    height: 350px;
+    width: 600px;
+    padding-bottom: 10%;
+    filter:brightness(0.2);
+    transition: filter 1s;
+  }
+
+#visage img:hover {
+  filter: none;
+  transition: filter 1s;
+}
+
+#challenge {
+    height: 600px;
+    width: 600px;
+    margin: auto;
+    display: block;
+    float: right;
+    margin-top: 5%;
+    margin-right: 10%;
+    color: white;
+}
+
+#challenge img {
+    height: 350px;
+    width: 600px;
+    padding-bottom: 10%;
+    filter: brightness(0.2);
+    transition: filter 1s;
+}
+
+#challenge img:hover {
+  filter: none;
+  transition: filter 1s;
+}
+
+#maquette {
+    height: 600px;
+    width: 600px;
+    margin: auto;
+    float: left;
+    display: block;
+    margin-top: 10%;
+    margin-left: 10%;
+    color: white;
+}
+
+#maquette img {
+    height: 350px;
+    width: 600px;
+    padding-bottom: 10%;
+    filter: brightness(0.2);
+    transition: filter 1s;
+}
+
+#maquette img:hover {
+  filter: none;
+  transition: filter 1s;
+}
+
+#exo5 {
+    height: 600px;
+    width: 600px;
+    margin: auto;
+    float: right;
+    display: block;
+    margin-top: 10%;
+    margin-right: 10%;
+    color: white;
+}
+
+#exo5 img {
+    height: 350px;
+    width: 600px;
+    padding-bottom: 10%;
+    filter: brightness(0.2);
+    transition: filter 1s;
+}
+
+#exo5 img:hover {
+  filter: none;
+  transition: filter 1s;
+}
+
+.btn {
+    color: white;
+    font-family: fantasy;
+    text-decoration: none;
+    border: solid 2px black;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-bottom: 6%;
+    border-radius: 20%;
+    transition: 1s;
+}
+
+.btn:hover {
+    color: black;
+    border: solid 2px white;
+    transition: 1s;
+}
+
+/****************************/
+    /******ABOUT******/
+/***************************/
+
+#about {
+    background-color: #6F6F6F;
+    height: 890px;
+    width: auto;
+    padding-top: 5%;
+}
+
+#about p {
+    font-family: "bkobiii";
+    font-size: 30px;
+    text-align: justify;
+    text-align-last: center;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+#moi {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#moi img {
+    height: 450px;
+    width: 450px;
+}
+
+/****************************/
+    /*****CONTACT*****/
+/***************************/
+
+#Contact {
+  height: 1000px;
+  background-color: #202020;
+  padding-top: 5%;
+}
+
+#Contact h1 {
+  color: white;
+}
+
+#Contact form {
+  text-align: center;
+  margin-top: 5%;
+}
+
+#Contact input, #Contact textarea, #Contact label {
+  font-size: 20px;
+  display: block;
+  margin: auto;
+  text-align: center;
+  color:rgba(32,32,32,0.5);
+}
+
+#Contact label{
+  color: white;
+  font-family: "bkobiii";
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.social {
+    padding-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.social img {
+    height: 120px;
+    width: 120px;
+}
+
+/****************************/
+      /****FOOTER****/
+/***************************/
+
+footer {
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  background-color: #6F6F6F;
+  padding-top: 1%;
+}
+
+ footer ul li {
+  margin:auto;
+  display: inline;
+  color: black;
+  font-size: 20px;
+}
